@@ -4,7 +4,7 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm i --ignore-platform
+        - npm ci
     build:
       commands:
         - npm run build
